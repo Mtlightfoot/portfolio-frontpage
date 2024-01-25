@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+.mainContainer {
+    background-image: url(/img/lightbulb-background.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.navbar {
+    border-radius: 50px;
+    background-color: rgb(40, 40, 43, 0.8);
+    backdrop-filter: blur(8px);
+}
+
+.navbar-brand {
+    font-weight: 800;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    font-weight: 700;
+    color: white;
+}
+
+.nav-link {
+    color: antiquewhite;
+}
+
+.nav-link:hover {
+    color: white;
+}
