@@ -12,7 +12,7 @@
 }
 
 .navbar {
-    border-radius: 50px;
+    border-radius: 40px;
     background-color: rgb(40, 40, 43, 0.8);
     backdrop-filter: blur(8px);
 }
