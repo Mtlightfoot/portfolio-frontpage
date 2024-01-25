@@ -5,7 +5,7 @@
 }
 
 .mainContainer {
-    background-image: url(/img/lightbulb-background.jpg);
+    background-image: url(img/lightbulb-background.jpg);
     background-position: center;
     background-size: cover;
     min-height: 100vh;
