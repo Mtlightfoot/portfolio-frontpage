@@ -12,16 +12,33 @@
 }
 
 .navbar {
-    border-radius: 40px;
-    background-color: rgb(40, 40, 43, 0.8);
+    border-radius: 10px;
+    background-color: rgb(40, 40, 43, 0.7);
     backdrop-filter: blur(8px);
+    color: white;
+}
+
+.profilePicBG,
+.aboutCard {
+    border: 2px solid white;
+    background-color: transparent;
+    backdrop-filter: blur(8px);
+    height: 100%;
+    text-align: center;
+    color: black;
+    font-size: 1em;
+}
+
+.navbar {
+    letter-spacing: 1px;
 }
 
 .navbar-brand {
     font-weight: 800;
 }
 
-.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
     font-weight: 700;
     color: white;
 }
@@ -32,4 +49,25 @@
 
 .nav-link:hover {
     color: white;
+}
+
+.card-header {
+    background: transparent;
+    font-weight: 700;
+}
+
+.cardLeft {
+    margin-right: 15px;
+}
+
+.cardRight {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+}
+
+.profilePicture {
+    width: 100%;
+    border-radius: 10px;
 }
